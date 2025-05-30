@@ -168,6 +168,24 @@
                         </div>
                         <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
                     </div>
+                    <!-- Booking Form -->
+    <section class="testimonials">
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/banner12.jpg" data-overlay-dark="7">
+            <div class="container">
+                <div class="row">
+                    <!-- Reservation -->
+                    <div class="col-md-5 mb-30 mt-60">
+                        <p class="mb-0"><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
+                        <h5>A modern restaurant with a menu that will make your mouth water.</h5>
+                        <div class="reservations mb-10">
+                            <div class="icon color-1"><span class="flaticon-tray-1"></span></div>
+                            <div class="text">
+                                <p class="color-1">Reserve</p> <a class="color-1" >for a great experience</a>
+                            </div>
+                        </div>
+                        <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
+                    </div>
+
                     <!-- Booking From -->
                     <div class="col-md-5 offset-md-2">
                         <div class="booking-box">
@@ -175,13 +193,13 @@
                                 <h4>Make A Enquiry</h4>
                             </div>
                             <div class="booking-inner clearfix">
-                                <form class="form1 clearfix" method="POST" action="https://formspree.io/f/mwpbeqbl">
+                                <form method="POST" action="https://formspree.io/f/mwpbeqbl">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="input1_wrapper">
                                                 <label>Your Name</label>
                                                 <div class="input2_inner">
-                                                    <input type="text" class="form-control input" placeholder="Your Name" required>
+                                                    <input name="Name" type="text" class="form-control input" placeholder="Your Name" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -189,7 +207,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Phone</label>
                                                 <div class="input2_inner">
-                                                    <input type="text" class="form-control input" placeholder="Phone" required>
+                                                    <input name="number" type="text" class="form-control input" placeholder="Phone" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -197,7 +215,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Email Address</label>
                                                 <div class="input2_inner">
-                                                    <input type="email" class="form-control input" placeholder="Email Address" required>
+                                                    <input name="email" type="email" class="form-control input" placeholder="Email Address" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -205,7 +223,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Date</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Date" required>
+                                                    <input name="date" type="text" class="form-control input datepicker" placeholder="Date" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -213,7 +231,7 @@
                                             <div class="select1_wrapper">
                                                 <label>Persons</label>
                                                 <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
+                                                    <select name="person" class="select2 select" style="width: 100%">
                                                         <option value="0">Persons</option>
                                                         <option value="1">1 Person</option>
                                                         <option value="2">2 People</option>
@@ -230,7 +248,7 @@
                                             <div class="select1_wrapper">
                                                 <label>Time</label>
                                                 <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
+                                                    <select name="time" class="select2 select" style="width: 100%">
                                                         <option value="0">Time</option>
                                                         <option value="1">10:00 am</option>
                                                         <option value="2">11:00 am</option>
@@ -247,7 +265,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Your Message</label>
                                                 <div class="input2_inner">
-                                                    <input type="text" class="form-control input" placeholder="Message" required>
+                                                    <input name="message" type="text" class="form-control input" placeholder="Message" required>
                                                 </div>
                                             </div>
                                         </div>
