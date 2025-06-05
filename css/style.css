@@ -1344,7 +1344,7 @@ font-size: 15px;
 }
 .header .caption h1 span {
     display: block;
-    font-size: 35px;
+    font-size: 28px;
     display: block;
     margin-top: 0px;
     line-height: 1.5em;
@@ -6363,7 +6363,7 @@ select {
         line-height: 1.35em;
     }
     .header .caption h1 span {
-        font-size: 27px;
+        font-size: 23px;
     }
     .header .caption h4 {
         font-size: 15px;
