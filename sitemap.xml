@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://naguk.ca/index.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Blog Page -->
+  <url>
+    <loc>https://naguk.ca/blog2.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Cart Page -->
+  <url>
+    <loc>https://naguk.ca/cart.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- Coming Soon Page -->
+  <url>
+    <loc>https://naguk.ca/coming-soon.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://naguk.ca/contact.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Gallery Image Page -->
+  <url>
+    <loc>https://naguk.ca/gallery-image.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Gallery Video Page -->
+  <url>
+    <loc>https://naguk.ca/gallery-video.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Private Dining Page -->
+  <url>
+    <loc>https://naguk.ca/privatedining.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://naguk.ca/services.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Team Page -->
+  <url>
+    <loc>https://naguk.ca/team.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- 404 Page (Optional) -->
+  <url>
+    <loc>https://naguk.ca/404.html</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.10</priority>
+  </url>
+
+</urlset>
