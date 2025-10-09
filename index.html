@@ -1248,6 +1248,38 @@
         </div>
     </footer>
     <!-- jQuery -->
+
+    <!-- Translucent Modal Start -->
+    <div id="customModal" class="modal-overlay">
+        <div class="modal-content">
+        <p style="color: black; font-size: 20px;">What's new at Naguk!</p>
+        <img style="max-width: 85%; margin: auto;" src="img/popup.jpg">
+        <p style="padding-top: 15px; font-size: 12px;"><i>✨ Experience Diwali at Aamara — Where Tradition Meets Taste!</i></p>
+        <button class="close-btn" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    <!-- Translucent Modal End -->
+
+    <script>
+        function closeModal() {
+            document.getElementById('customModal').classList.remove('show');
+        }
+        
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+            document.getElementById('customModal').classList.add('show');
+            }, 3000);
+        });
+        
+        // Optional: Close on outside click
+        document.addEventListener('click', function (event) {
+            const modal = document.getElementById('customModal');
+            if (event.target === modal) {
+            closeModal();
+            }
+        });
+    </script>
+
     <script>
         document.getElementById('reviewForm').addEventListener('submit', function(e) {
             e.preventDefault(); // Prevent form from submitting the usual way
