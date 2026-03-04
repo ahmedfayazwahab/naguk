@@ -172,229 +172,214 @@
 
     <!-- Slider -->
     <header class="header slider-fade">
-        <div class="owl-carousel owl-theme">
-            <!--Aamara-->
-            <div class="video-fullscreen-wrap">
-                <div class="video-fullscreen-video" data-overlay-dark="3">
-                    <video playsinline="" autoplay="" loop="" muted="">
-                        <source src="videos/aamara.webm" type="video/webm" autoplay="" loop="" muted="">
-                    </video>
-                </div>
-                <div class="v-middle caption overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h6>Est. 2024</h6>
-                                <!--mobile-->
-                                <h1 class="d-block d-sm-none"><img style="width: 18%; margin: 0 auto !important;" src="logos/aamara.png"></img><span>Indian Fine Dining</span></h1>
-                                <!--desktop-->
-                                <h1 class="d-none d-sm-block"><img style="width: 8%; margin: 0 auto !important;" src="logos/aamara.png"></img><span>Indian Fine Dining</span></h1>
-                                <h4>1224 St Clair Ave W, Toronto, ON M6E 1B4</h4> 
-                                <a target="_blank" href="https://www.aamara.ca/menu.html" class="button-1 mt-30">Check Our Menu<span></span></a>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-                <div class="reservation">
-                    <a href="https://reserve.aamara.ca/">
-                        <div class="icon d-flex justify-content-center align-items-center"> <i class="flaticon-tray-1"></i> </div>
-                        <div class="call"><span>416-651-0010</span>
-                            <br>Reservation
-                        </div>
-                    </a>
-                </div>
+        <div class="owl-carousel owl-theme" id="restaurantSlider">
+      
+          <!-- ═══ AAMARA ═══ -->
+          <div class="video-fullscreen-wrap">
+            <div class="video-fullscreen-video" data-overlay-dark="3">
+              <!-- poster= shows instantly. preload="none" blocks video download.    -->
+              <!-- data-src (not src) prevents browser from fetching the video file. -->
+              <video class="lazy-video"
+                     poster="img/posters/aamara.jpg"
+                     preload="none"
+                     playsinline loop muted>
+                <source data-src="videos/aamara.webm" type="video/webm">
+              </video>
             </div>
-            <!-- Gabbys -->
-            <div class="video-fullscreen-wrap">
-                <div class="video-fullscreen-video" data-overlay-dark="3">
-                    <video playsinline="" autoplay="" loop="" muted="">
-                        <source src="videos/gabbys.webm" type="video/webm" autoplay="" loop="" muted="">
-                    </video>
+            <div class="v-middle caption overlay">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h6>Est. 2024</h6>
+                    <h1 class="d-block d-sm-none">
+                      <img src="logos/aamara.png" style="width:18%;margin:0 auto"
+                           width="120" height="60" alt="Aamara logo" loading="lazy">
+                      <span>Indian Fine Dining</span></h1>
+                    <h1 class="d-none d-sm-block">
+                      <img src="logos/aamara.png" style="width:8%;margin:0 auto"
+                           width="120" height="60" alt="Aamara Indian Fine Dining Toronto">
+                      <span>Indian Fine Dining</span></h1>
+                    <h4>1224 St Clair Ave W, Toronto, ON M6E 1B4</h4>
+                    <a target="_blank" href="https://www.aamara.ca/menu.html"
+                       class="button-1 mt-30">Check Our Menu<span></span></a>
+                  </div>
                 </div>
-                <div class="v-middle caption overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h6>Est. 1989</h6>
-                                <!--mobile-->
-                                <h1 class="d-block d-sm-none"><img style="width: 30%; margin: 0 auto !important;" src="logos/Gabbys.png"></img><span>Kitchen & Bar</span></h1>
-                                <!--desktop-->
-                                <h1 class="d-none d-sm-block"><img style="width: 18%; margin: 0 auto !important;" src="logos/Gabbys.png"></img><span>Kitchen & Bar</span></h1>
-                                <h4>Multiple Locations</h4> 
-                                <a target="_blank" href="https://www.gabbys.ca/menu" class="button-1 mt-30">Check Our Menu<span></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reservation">
-                    <a href="tel:8551004444">
-                        <div class="icon d-flex justify-content-center align-items-center"> <i class="flaticon-tray-1"></i> </div>
-                        <div class="call"><span>905-838-0001</span>
-                            <br>Reservation
-                        </div>
-                    </a>
-                </div>
+              </div>
             </div>
-            <!-- Kohlipe -->
-            <div class="video-fullscreen-wrap">
-                <div class="video-fullscreen-video" data-overlay-dark="3">
-                    <video playsinline="" autoplay="" loop="" muted="">
-                        <source src="videos/kohlipe.webm" type="video/webm" autoplay="" loop="" muted="">
-                    </video>
+            <div class="reservation">
+              <a href="https://reserve.aamara.ca/">
+                <div class="icon d-flex justify-content-center align-items-center">
+                  <i class="flaticon-tray-1"></i>
                 </div>
-                <div class="v-middle caption overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h6>Est. 2023</h6>
-                                <!--mobile-->
-                                <h1 class="d-block d-sm-none"><img style="width: 45%; margin: 0 auto !important;" src="logos/kohlipe.png"></img><span>Michelin Guide Thai Kitchen</span></h1>
-                                <!--desktop-->
-                                <h1 class="d-none d-sm-block"><img style="width: 20%; margin: 0 auto !important;" src="logos/kohlipe.png"></img><span>Michelin Guide Thai Kitchen</span></h1>
-
-                                <h4>Multiple Locations</h4> 
-                                <a target="_blank" href="https://kohlipe.ca/spmenu/" class="button-1 mt-30">Check Our Menu<span></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reservation">
-                    <a href="https://kohlipe.ca/">
-                        <div class="icon d-flex justify-content-center align-items-center"> <i class="flaticon-tray-1"></i> </div>
-                        <div class="call"><span>416-599-9988</span>
-                            <br>Reservation
-                        </div>
-                    </a>
-                </div>
+                <div class="call"><span>416-651-0010</span><br>Reservation</div>
+              </a>
             </div>
-            <!-- Le Lert -->
-            <div class="video-fullscreen-wrap">
-                <div class="video-fullscreen-video" data-overlay-dark="3">
-                    <video playsinline="" autoplay="" loop="" muted="">
-                        <source src="videos/lelert.webm" type="video/webm" autoplay="" loop="" muted="">
-                    </video>
-                </div>
-                <div class="v-middle caption overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h6>Est. 2024</h6>
-                                <!--mobile-->
-                                <h1 class="d-block d-sm-none"><img style="width: 38%; margin: 0 auto !important;" src="logos/lelert.svg"></img><span>Thai</span></h1>
-                                <!--desktop-->
-                                <h1 class="d-none d-sm-block"><img style="width: 20%; margin: 0 auto !important;" src="logos/lelert.svg"></img><span>Thai</span></h1>
-
-                                <h4>27 Carlton St., Toronto, ON M5B 1L2</h4> 
-                                <a target="_blank" href="https://lelert.ca/menu.html" class="button-1 mt-30">Check Our Menu<span></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reservation">
-                    <a href="https://www.opentable.ca/restaurant/profile/1373506/reserve?rid=1373506&restref=1373506">
-                        <div class="icon d-flex justify-content-center align-items-center"> <i class="flaticon-tray-1"></i> </div>
-                        <div class="call"><span>437-433-4359</span>
-                            <br>Reservation
-                        </div>
-                    </a>
-                </div>
+          </div>
+      
+          <!-- ═══ GABBYS ═══ -->
+          <div class="video-fullscreen-wrap">
+            <div class="video-fullscreen-video" data-overlay-dark="3">
+              <video class="lazy-video"
+                     poster="img/posters/gabbys.jpg"
+                     preload="none"
+                     playsinline loop muted>
+                <source data-src="videos/gabbys.webm" type="video/webm">
+              </video>
             </div>
-            <!--Savor-->
-            <div class="video-fullscreen-wrap">
-                <div class="video-fullscreen-video" data-overlay-dark="3">
-                    <video playsinline="" autoplay="" loop="" muted="">
-                        <source src="videos/savor.webm" type="video/webm" autoplay="" loop="" muted="">
-                    </video>
-                </div>
-                <div class="v-middle caption overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h6>Est. 2023</h6>
-                                <!--mobile-->
-                                <h1 class="d-block d-sm-none"><img style="width: 36%; margin: 0 auto !important;" src="logos/Savor.png"></img><span>Thai Fine Dining</span></h1>
-                                <!--desktop-->
-                                <h1 class="d-none d-sm-block"><img style="width: 19%; margin: 0 auto !important;" src="logos/Savor.png"></img><span>Thai Fine Dining</span></h1>
-                                <h4>1226 St Clair Ave W, Toronto, M6E 1B4</h4> 
-                                <a target="_blank" href="https://www.savortoronto.ca/menu" class="button-1 mt-30">Check Our Menu<span></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reservation">
-                    <a href="https://www.exploretock.com/savor-toronto/search">
-                        <div class="icon d-flex justify-content-center align-items-center"> <i class="flaticon-tray-1"></i> </div>
-                        <div class="call"><span>416-410-0303</span>
-                            <br>Reservation
-                        </div>
-                    </a>
-                </div>
+            <div class="v-middle caption overlay">
+              <div class="container"><div class="row"><div class="col-md-12 text-center">
+                <h6>Est. 1989</h6>
+                <h1 class="d-block d-sm-none"><img src="logos/Gabbys.png" style="width:30%;margin:0 auto"
+                     width="180" height="80" alt="Gabbys Kitchen and Bar logo" loading="lazy"><span>Kitchen & Bar</span></h1>
+                <h1 class="d-none d-sm-block"><img src="logos/Gabbys.png" style="width:18%;margin:0 auto"
+                     width="180" height="80" alt="Gabbys Kitchen and Bar Toronto"><span>Kitchen & Bar</span></h1>
+                <h4>Multiple Locations</h4>
+                <a target="_blank" href="https://www.gabbys.ca/menu" class="button-1 mt-30">Check Our Menu<span></span></a>
+              </div></div></div>
             </div>
-            <!--Thairoom-->
-            <div class="video-fullscreen-wrap">
-                <div class="video-fullscreen-video" data-overlay-dark="3">
-                    <video playsinline="" autoplay="" loop="" muted="">
-                        <source src="videos/thairoom.webm" type="video/webm" autoplay="" loop="" muted="">
-                    </video>
-                </div>
-                <div class="v-middle caption overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h6>Est. 2012</h6>
-                                <!--mobile-->
-                                <h1 class="d-block d-sm-none"><img style="width: 46%; margin: 0 auto !important;" src="logos/thairoom.png"></img><span>Authentic Thai</span></h1>
-                                <!--desktop-->
-                                <h1 class="d-none d-sm-block"><img style="width: 24%; margin: 0 auto !important;" src="logos/thairoom.png"></img><span>Authentic Thai</span></h1>
-                                <h4>Multiple Locations</h4> 
-                                <a target="_blank" href="https://thairoom.ca/#menu" class="button-1 mt-30">Check Our Menu<span></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reservation">
-                    <a href="https://thairoom.ca/reservation">
-                        <div class="icon d-flex justify-content-center align-items-center"> <i class="flaticon-tray-1"></i> </div>
-                        <div class="call"><span>416-514-0100</span>
-                            <br>Reservation
-                        </div>
-                    </a>
-                </div>
+            <div class="reservation"><a href="tel:8551004444">
+              <div class="icon d-flex justify-content-center align-items-center"><i class="flaticon-tray-1"></i></div>
+              <div class="call"><span>905-838-0001</span><br>Reservation</div>
+            </a></div>
+          </div>
+      
+          <!-- ═══ KOHLIPE ═══ -->
+          <div class="video-fullscreen-wrap">
+            <div class="video-fullscreen-video" data-overlay-dark="3">
+              <video class="lazy-video"
+                     poster="img/posters/kohlipe.jpg"
+                     preload="none"
+                     playsinline loop muted>
+                <source data-src="videos/kohlipe.webm" type="video/webm">
+              </video>
             </div>
-            <!--thairoomgrand-->
-            <div class="video-fullscreen-wrap">
-                <div class="video-fullscreen-video" data-overlay-dark="3">
-                    <video playsinline="" autoplay="" loop="" muted="">
-                        <source src="videos/thairoomgrand.webm" type="video/webm" autoplay="" loop="" muted="">
-                    </video>
-                </div>
-                <div class="v-middle caption overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h6>Est. 2012</h6>
-                                <!--mobile-->
-                                <h1 class="d-block d-sm-none"><img style="width: 45%; margin: 0 auto !important;" src="logos/thairoomgrand.png"></img><span>Authentic Thai</span></h1>
-                                <!--desktop-->
-                                <h1 class="d-none d-sm-block"><img style="width: 25%; margin: 0 auto !important;" src="logos/thairoomgrand.png"></img><span>Authentic Thai</span></h1>
-                                <h4>Multiple Locations</h4> 
-                                <a target="_blank" href="https://thairoomgrand.com/menu" class="button-1 mt-30">Check Our Menu<span></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reservation">
-                    <a href="https://reserve.thairoomgrand.com/">
-                        <div class="icon d-flex justify-content-center align-items-center"> <i class="flaticon-tray-1"></i> </div>
-                        <div class="call"><span>416-444-7223</span>
-                            <br>Reservation
-                        </div>
-                    </a>
-                </div>
+            <div class="v-middle caption overlay">
+              <div class="container"><div class="row"><div class="col-md-12 text-center">
+                <h6>Est. 2023</h6>
+                <h1 class="d-block d-sm-none"><img src="logos/kohlipe.png" style="width:45%;margin:0 auto"
+                     width="200" height="80" alt="Kohlipe logo" loading="lazy"><span>Michelin Guide Thai Kitchen</span></h1>
+                <h1 class="d-none d-sm-block"><img src="logos/kohlipe.png" style="width:20%;margin:0 auto"
+                     width="200" height="80" alt="Kohlipe Michelin Guide Thai Toronto"><span>Michelin Guide Thai Kitchen</span></h1>
+                <h4>Multiple Locations</h4>
+                <a target="_blank" href="https://kohlipe.ca/spmenu/" class="button-1 mt-30">Check Our Menu<span></span></a>
+              </div></div></div>
             </div>
-            <!---->
-        </div>
-    </header>
+            <div class="reservation"><a href="https://kohlipe.ca/">
+              <div class="icon d-flex justify-content-center align-items-center"><i class="flaticon-tray-1"></i></div>
+              <div class="call"><span>416-599-9988</span><br>Reservation</div>
+            </a></div>
+          </div>
+      
+          <!-- ═══ LE LERT ═══ -->
+          <div class="video-fullscreen-wrap">
+            <div class="video-fullscreen-video" data-overlay-dark="3">
+              <video class="lazy-video"
+                     poster="img/posters/lelert.jpg"
+                     preload="none"
+                     playsinline loop muted>
+                <source data-src="videos/lelert.webm" type="video/webm">
+              </video>
+            </div>
+            <div class="v-middle caption overlay">
+              <div class="container"><div class="row"><div class="col-md-12 text-center">
+                <h6>Est. 2024</h6>
+                <h1 class="d-block d-sm-none"><img src="logos/lelert.svg" style="width:38%;margin:0 auto"
+                     width="160" height="70" alt="Le Lert logo" loading="lazy"><span>Thai</span></h1>
+                <h1 class="d-none d-sm-block"><img src="logos/lelert.svg" style="width:20%;margin:0 auto"
+                     width="160" height="70" alt="Le Lert Thai Restaurant Toronto"><span>Thai</span></h1>
+                <h4>27 Carlton St., Toronto, ON M5B 1L2</h4>
+                <a target="_blank" href="https://lelert.ca/menu.html" class="button-1 mt-30">Check Our Menu<span></span></a>
+              </div></div></div>
+            </div>
+            <div class="reservation"><a href="https://www.opentable.ca/restaurant/profile/1373506/reserve?rid=1373506&restref=1373506">
+              <div class="icon d-flex justify-content-center align-items-center"><i class="flaticon-tray-1"></i></div>
+              <div class="call"><span>437-433-4359</span><br>Reservation</div>
+            </a></div>
+          </div>
+      
+          <!-- ═══ SAVOR ═══ -->
+          <div class="video-fullscreen-wrap">
+            <div class="video-fullscreen-video" data-overlay-dark="3">
+              <video class="lazy-video"
+                     poster="img/posters/savor.jpg"
+                     preload="none"
+                     playsinline loop muted>
+                <source data-src="videos/savor.webm" type="video/webm">
+              </video>
+            </div>
+            <div class="v-middle caption overlay">
+              <div class="container"><div class="row"><div class="col-md-12 text-center">
+                <h6>Est. 2023</h6>
+                <h1 class="d-block d-sm-none"><img src="logos/Savor.png" style="width:36%;margin:0 auto"
+                     width="160" height="70" alt="Savor logo" loading="lazy"><span>Thai Fine Dining</span></h1>
+                <h1 class="d-none d-sm-block"><img src="logos/Savor.png" style="width:19%;margin:0 auto"
+                     width="160" height="70" alt="Savor Thai Fine Dining Toronto"><span>Thai Fine Dining</span></h1>
+                <h4>1226 St Clair Ave W, Toronto, M6E 1B4</h4>
+                <a target="_blank" href="https://www.savortoronto.ca/menu" class="button-1 mt-30">Check Our Menu<span></span></a>
+              </div></div></div>
+            </div>
+            <div class="reservation"><a href="https://www.exploretock.com/savor-toronto/search">
+              <div class="icon d-flex justify-content-center align-items-center"><i class="flaticon-tray-1"></i></div>
+              <div class="call"><span>416-410-0303</span><br>Reservation</div>
+            </a></div>
+          </div>
+      
+          <!-- ═══ THAIROOM ═══ -->
+          <div class="video-fullscreen-wrap">
+            <div class="video-fullscreen-video" data-overlay-dark="3">
+              <video class="lazy-video"
+                     poster="img/posters/thairoom.jpg"
+                     preload="none"
+                     playsinline loop muted>
+                <source data-src="videos/thairoom.webm" type="video/webm">
+              </video>
+            </div>
+            <div class="v-middle caption overlay">
+              <div class="container"><div class="row"><div class="col-md-12 text-center">
+                <h6>Est. 2012</h6>
+                <h1 class="d-block d-sm-none"><img src="logos/thairoom.png" style="width:46%;margin:0 auto"
+                     width="200" height="80" alt="thairoom logo" loading="lazy"><span>Authentic Thai</span></h1>
+                <h1 class="d-none d-sm-block"><img src="logos/thairoom.png" style="width:24%;margin:0 auto"
+                     width="200" height="80" alt="thairoom Authentic Thai Restaurant Toronto"><span>Authentic Thai</span></h1>
+                <h4>Multiple Locations</h4>
+                <a target="_blank" href="https://thairoom.ca/#menu" class="button-1 mt-30">Check Our Menu<span></span></a>
+              </div></div></div>
+            </div>
+            <div class="reservation"><a href="https://thairoom.ca/reservation">
+              <div class="icon d-flex justify-content-center align-items-center"><i class="flaticon-tray-1"></i></div>
+              <div class="call"><span>416-514-0100</span><br>Reservation</div>
+            </a></div>
+          </div>
+      
+          <!-- ═══ THAIROOMGRAND ═══ -->
+          <div class="video-fullscreen-wrap">
+            <div class="video-fullscreen-video" data-overlay-dark="3">
+              <video class="lazy-video"
+                     poster="img/posters/thairoomgrand.jpg"
+                     preload="none"
+                     playsinline loop muted>
+                <source data-src="videos/thairoomgrand.webm" type="video/webm">
+              </video>
+            </div>
+            <div class="v-middle caption overlay">
+              <div class="container"><div class="row"><div class="col-md-12 text-center">
+                <h6>Est. 2012</h6>
+                <h1 class="d-block d-sm-none"><img src="logos/thairoomgrand.png" style="width:45%;margin:0 auto"
+                     width="200" height="80" alt="thairoomgrand logo" loading="lazy"><span>Authentic Thai</span></h1>
+                <h1 class="d-none d-sm-block"><img src="logos/thairoomgrand.png" style="width:25%;margin:0 auto"
+                     width="200" height="80" alt="thairoomgrand Authentic Thai Toronto"><span>Authentic Thai</span></h1>
+                <h4>Multiple Locations</h4>
+                <a target="_blank" href="https://thairoomgrand.com/menu" class="button-1 mt-30">Check Our Menu<span></span></a>
+              </div></div></div>
+            </div>
+            <div class="reservation"><a href="https://reserve.thairoomgrand.com/">
+              <div class="icon d-flex justify-content-center align-items-center"><i class="flaticon-tray-1"></i></div>
+              <div class="call"><span>416-444-7223</span><br>Reservation</div>
+            </a></div>
+          </div>
+      
+        </div> <!-- end owl-carousel -->
+      </header>
 
     <!-- About -->
     <section class="about section-padding">
@@ -1291,7 +1276,90 @@
         </div>
     </div> -->
     <!-- Translucent Modal End -->
-
+    <script>
+        /**
+         * Naguk Lazy Video Loader
+         * Hooks into Owl Carousel events to load videos on demand.
+         * Only the active slide's video is ever loaded.
+         */
+        
+        // Detect slow connections — skip video entirely on poor networks
+        const isSlowConnection = () => {
+          const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+          if (!conn) return false;
+          return ['slow-2g', '2g', '3g'].includes(conn.effectiveType) || conn.saveData === true;
+        };
+        
+        // Detect if user prefers reduced motion (accessibility)
+        const prefersReducedMotion = () =>
+          window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        
+        /**
+         * Load and play a lazy video in a slide.
+         * Swaps data-src → src on the <source>, then plays.
+         */
+        function loadSlideVideo(slideElement) {
+          const video = slideElement.querySelector('video.lazy-video');
+          if (!video) return;
+        
+          // Skip video on slow connections or reduced-motion preference
+          if (isSlowConnection() || prefersReducedMotion()) {
+            // Poster image remains — nothing to do, looks great already
+            return;
+          }
+        
+          const source = video.querySelector('source[data-src]');
+          if (source && !video.src && !source.src) {
+            // First time: move data-src to src and load
+            source.src = source.dataset.src;
+            video.load();
+          }
+        
+          // Play with graceful fallback (browsers may block if not interacted)
+          const playPromise = video.play();
+          if (playPromise !== undefined) {
+            playPromise.catch(() => { /* autoplay blocked — poster stays visible */ });
+          }
+        }
+        
+        /**
+         * Pause video in a slide that's no longer active.
+         * Frees up CPU/battery when slide is hidden.
+         */
+        function pauseSlideVideo(slideElement) {
+          const video = slideElement.querySelector('video.lazy-video');
+          if (video && !video.paused) video.pause();
+        }
+        
+        // Wait for DOM + Owl Carousel to be ready
+        document.addEventListener('DOMContentLoaded', function () {
+          const $carousel = $('#restaurantSlider');
+        
+          // Load the FIRST slide's video immediately (it's what the user sees)
+          const firstSlide = document.querySelector('#restaurantSlider .owl-item.active')
+            || document.querySelector('#restaurantSlider .video-fullscreen-wrap');
+          if (firstSlide) loadSlideVideo(firstSlide);
+        
+          // On every slide change: pause outgoing, load+play incoming
+          $carousel.on('changed.owl.carousel', function (event) {
+            const slides = document.querySelectorAll('#restaurantSlider .owl-item');
+        
+            slides.forEach(function (item, index) {
+              if (item.classList.contains('active')) {
+                loadSlideVideo(item);     // ← load + play active slide
+              } else {
+                pauseSlideVideo(item);    // ← pause all others
+              }
+            });
+          });
+        
+          // Also handle translate event (during swipe/drag transitions)
+          $carousel.on('translate.owl.carousel', function () {
+            document.querySelectorAll('#restaurantSlider .owl-item:not(.active) video.lazy-video')
+              .forEach(v => { if (!v.paused) v.pause(); });
+          });
+        });
+        </script>
     <script>
         function closeModal() {
             document.getElementById('customModal').classList.remove('show');
