@@ -1,2 +1,1 @@
-User-agent: *
-Allow: /sitemap.xml
+User-agent: * Allow: / Sitemap: https://naguk.ca/sitemap.xml
